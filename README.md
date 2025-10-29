@@ -1,1 +1,152 @@
-# cometmp.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CometMP - Fortnite Project</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #fff8f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      background-color: #ff7f50; /* Season 5 desert orange */
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-bottom: 4px solid #e06b3a;
+    }
+
+    header img {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 900px;
+      width: 90%;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .card {
+      background: #fff;
+      border: 2px solid #ff7f50;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .card h2 {
+      margin-bottom: 20px;
+      color: #ff5500;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #fff;
+      background-color: #ff7f50;
+      border: 2px solid #e06b3a;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .buttons a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border-radius: 12px;
+      border: 2px solid #ff7f50;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      text-align: center;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      iframe {
+        height: 300px;
+      }
+      .buttons a {
+        padding: 10px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Logo and Name -->
+  <header>
+    <img src="logo.png" alt="CometMP Logo">
+    <h1>CometMP</h1>
+  </header>
+
+  <main>
+    <!-- YouTube Tutorial Embed -->
+    <div class="card">
+      <h2>Tutorial</h2>
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube tutorial" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Buttons Section -->
+    <div class="card">
+      <h2>Get Started</h2>
+      <div class="buttons">
+        <a href="https://discord.gg/YOUR_DISCORD" target="_blank">Join Discord</a>
+        <a href="build-download-link.exe" download>Download Build</a>
+        <a href="launcher-download-link.exe" download>Download Launcher</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 CometMP. All rights reserved.
+  </footer>
+
+</body>
+</html>
